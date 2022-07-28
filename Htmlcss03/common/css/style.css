@@ -1,0 +1,69 @@
+html{
+    box-sizing: border-box;
+}
+html,body{
+    direction: rtl;
+    font-family: IRANSans;
+}
+
+body{
+    background: #eee;
+}
+
+*{
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+*::before,*::after{
+
+}
+.box::before{
+    /*content: 'nikoo';*/
+    box-sizing: inherit;
+    font-family: IRANSans, serif;
+}
+a,span,label{
+    display: inline-block;
+    /*background: red;*/
+
+   }
+
+a{text-decoration: none}
+ul ui {list-style: none;}
+
+/*p{  background: red;    }*/
+.box{
+    width: 200px;
+    background: blue;
+    color: #fff;
+}
+
+.container{
+    width: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #fff;
+
+}
+/*selector        ~ + > [] * space*/
+
+/*div ~p{*/
+/*    color: red;*/
+/*}*/
+
+/*.span3 ~ span {*/
+/*    color: red;*/
+/*}*/
+
+/*.span3 + span {*/
+/*    color: red;*/
+/*}*/
+
+div + p {
+    color: red;
+}

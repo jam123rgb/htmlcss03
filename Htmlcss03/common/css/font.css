@@ -1,0 +1,15 @@
+@font-face {
+    font-family: irs;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot');
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), url(src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot');
+
+}
+
+@font-face {
+    font-family: irs;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_UItraLight.eot');
+}
